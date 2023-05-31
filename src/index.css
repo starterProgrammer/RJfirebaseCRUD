@@ -10,10 +10,26 @@ body {
     box-sizing: border-box;
 }
 
-* {
+div,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+nav,
+header,
+body,
+html,
+p {
     margin: 0;
     padding: 0;
     outline: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
     border: 0;
     background: transparent;
+    font-size: 100%;
 }
